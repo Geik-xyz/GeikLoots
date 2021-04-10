@@ -1,0 +1,50 @@
+ZOMBIE:
+    NormalDrop:
+        0:
+            ItemName: '&bAAAA'
+            ItemMaterial: DIRT
+            Chance: 100
+            ItemLore:
+            - '&bBEEEE'
+            - '&cCEEEE'
+            ItemCount: 2
+        1:
+            ItemName: ''
+            ItemMaterial: STONE
+            ItemLore: []
+            Chance: 100
+            ItemCount: 3
+    CommandDrop:
+        0:
+            Chance: 100
+            Command:
+            - 'give %player% diamond 1'
+        1:
+            Chance: 50
+            Command:
+            - 'give %player% book 1'
+SKELETON:
+    NormalDrop:
+        0:
+            ItemName: '&bAAAA'
+            ItemMaterial: DIRT
+            Chance: 100
+            ItemLore:
+            - '&bBEEEE'
+            - '&cCEEEE'
+            ItemCount: 2
+        1:
+            ItemName: ''
+            ItemMaterial: STONE
+            ItemLore: []
+            Chance: 100
+            ItemCount: 3
+    CommandDrop:
+        0:
+            Chance: 100
+            Command:
+            - 'give %player% diamond 1'
+        1:
+            Chance: 50
+            Command:
+            - 'give %player% book 1'
